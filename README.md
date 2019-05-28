@@ -12,7 +12,7 @@ Makes all child text monospaced.
 <br>
 
 ### \<log\>
-Simple user viewable log with printing functionality. [View Example.](examples/log.html)  
+Simple user viewable log with printing functionality. [View Example.](https://jsfiddle.net/sykeben/g04wv5cs/)  
 ```
 <log id="example"></log>
 
