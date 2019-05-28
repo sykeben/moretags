@@ -1,4 +1,4 @@
-# More Tags
+# ![](https://raw.githubusercontent.com/sykeben/moretags/master/logo.png) More Tags
 *A CSS & JS Library*
 
 <br>
