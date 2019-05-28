@@ -7,26 +7,24 @@
 
 
 // Framework Info (This is standard across all versions).
-function MoreTags() {
+const MoreTags = {
     
     // Version #.
-    this.version = {
-        major: 0, minor: 0, revision: 1,
-        string: `${this.version.major}.${this.version.minor}.${this.version.revision}`
-    };
+    version: {
+        major: 0, minor: 0, revision: 2
+    },
     
     // Copyright.
-    this.copyright = {
-        year: 2019, holder: 'SykeBen',
-        string: `(c)${this.copyright.year} - ${this.copyright.holder}`
-    };
+    copyright: {
+        year: 2019, holder: 'SykeBen'
+    }
     
-}
+};
 
 
 
 // <log> Interface.
-function Log(logName) {
+function MTLog(logName) {
     
     // <log> DOM object.
     this.object = document.querySelector(`log#${logName}`);

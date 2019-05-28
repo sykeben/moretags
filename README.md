@@ -12,12 +12,12 @@ Makes all child text monospaced.
 <br>
 
 ### \<log\>
-Simple user viewable log with printing functionality. [View Example.](https://jsfiddle.net/sykeben/g04wv5cs/)  
+Simple user viewable log with printing functionality.
 ```
 <log id="example"></log>
 
 <script>
-   var example = new Log('example');
+   var example = new MTLog('example');
    example.print('Hello, World!');
 </script>
 ```
