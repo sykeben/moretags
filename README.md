@@ -3,17 +3,17 @@
 
 <br>
 
-### \<mono\>
+### `<mono>`
 Makes all child text monospaced.
-```
+```html
 <mono>This is code</mono>
 ```
 
 <br>
 
-### \<log\> & MTLog()
+### `<log>` & `MTLog()`
 Simple user viewable log with printing functionality. [Example](https://jsfiddle.net/sykeben/jphbf8xm/)
-```
+```html
 <log id="example"></log>
 
 <script>
