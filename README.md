@@ -11,7 +11,7 @@ Makes all child text monospaced.
 
 <br>
 
-### \<log\>
+### \<log\> & MTLog()
 Simple user viewable log with printing functionality.
 ```
 <log id="example"></log>
