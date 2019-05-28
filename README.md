@@ -3,13 +3,21 @@
 
 <br>
 
-### `<mono>`
-Makes all child text monospaced.  
-**HTML Example:** `<mono>Code</mono>`
+### \<mono\>
+Makes all child text monospaced.
+```
+<mono>This is code</mono>
+```
 
 <br>
 
-### `<log id="[logName]">`
-User viewable log accessed via the `log()` object.  
-**HTML Example:** `<log id="test"></log>`  
-**JS Example:** `var testLog = new Log('test'); testLog.print('Hello, World!');`
+### \<log\>
+Simple user viewable log with printing functionality. [View Example.](examples/log.html)  
+```
+<log id="example"></log>
+
+<script>
+   var example = new Log('example');
+   example.print('Hello, World!');
+</script>
+```
