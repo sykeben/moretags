@@ -12,7 +12,7 @@ Makes all child text monospaced.
 <br>
 
 ### **\<log\>** & **MTLog()**
-Simple user viewable log with printing functionality. [Example](https://jsfiddle.net/sykeben/jphbf8xm/)
+Simple user viewable log with printing functionality. [Example](examples/log.html)
 ```html
 <log id="example"></log>
 
@@ -25,7 +25,7 @@ Simple user viewable log with printing functionality. [Example](https://jsfiddle
 <br>
 
 ### **\<result\>**
-Displays the result of written JS with an optional label.
+Displays the result of written JS with an optional label. [Example](examples/result.html)
 ```html
 <result code="Math.random()">Random #:</result>
 ```
