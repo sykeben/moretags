@@ -15,11 +15,17 @@
     <body style="padding: 10px;">
     
         <log id="test"></log>
+        <div style="padding: 10px; font-family: sans-serif;">
+          Using MoreTags Version <span id="version">(Unknown)</span>
+        </div>
         
         <script src="../js/moretags.js"></script>
         
         <script>
+            document.getElementById("version").innerText = `${MoreTags.version.major}.${MoreTags.version.minor}.${MoreTags.version.revision}`;
+            
             var testLog = new MTLog("test");
+            
             testLog.print("Hello, World!");
             testLog.print("This is a test.");
             testLog.print(Math.random().toString());
