@@ -1,5 +1,5 @@
 /////////////////////
-// MoreTags 0.0.1  //
+// MoreTags 0.0.3  //
 // JS Framework    //
 // (c)2019 SykeBen //
 /////////////////////
@@ -11,7 +11,7 @@ const MoreTags = {
     
     // Version #.
     version: {
-        major: 0, minor: 0, revision: 2
+        major: 0, minor: 0, revision: 3
     },
     
     // Copyright.
@@ -20,6 +20,18 @@ const MoreTags = {
     }
     
 };
+
+
+
+// Internal Functions.
+const MTFunctions = {
+    
+    // If a statement it true, return a value.
+    iftrue: function(statement, value) {
+        if (statement) return value;
+    }
+    
+}
 
 
 
@@ -48,3 +60,45 @@ function MTLog(logName) {
     }
     
 }
+
+
+
+// <result> Runner. (Bad code can kill your page!)
+function MTResults() {
+    
+    // Load all <result> tags.
+    var tags = document.getElementsByTagName('result');
+    
+    // Run each one.
+    for (var i=0; i<tags.length; i++) {
+        
+        // Prep result.
+        var result = '';
+        
+        // If it has code, run it.
+        if (tags[i].getAttribute('code') !== null) {
+            try { result = eval(tags[i].getAttribute('code')); }
+            catch(err) { result = err.message; }
+        }
+            
+        // If it doesn't, write an error.
+        else {
+            result = 'No code supplied.';
+        }
+        
+        // Write out result and label space if there is any.
+        tags[i].innerHTML += `${MTFunctions.iftrue(tags[i].innerHTML.length>0, ' ')}<rdisp><pre>${result}</pre></rdisp>`;
+        
+    }
+    
+}
+
+
+
+// Final setup (run onload functions).
+window.onload = function() {
+    
+    // Evaluate <result>'s
+    MTResults();
+    
+};

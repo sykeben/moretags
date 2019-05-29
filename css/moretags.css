@@ -1,8 +1,10 @@
 /*******************/
-/* MoreTags 0.0.1  */
+/* MoreTags 0.0.3  */
 /* CSS Framework   */
 /* (c)2019 SykeBen */
 /*******************/
+
+
 
 /* <mono> Text */
 mono {
@@ -10,6 +12,8 @@ mono {
     font-family: monospace;
     margin: 0px; padding: 0px;
 }
+
+
 
 /* <log> Display */
 log {
@@ -20,4 +24,26 @@ log {
     background-color: #2A2A2E; color: #F8F8F8;
     border: 1px solid #3C3F41;
     overflow-y: auto;
+}
+
+
+/* <result> Wrapper */
+result {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+/* <result> Display */
+result rdisp {
+    display: inline-block;
+    font-family: monospace;
+    padding: 0.5rem;
+    background-color: #2A2A2E; color: #F8F8F8;
+    border: 1px solid #3C3F41;
+    vertical-align: middle;
+}
+
+/* <result> Output */
+rdisp pre {
+    margin: 0px; padding: 0px;
 }
