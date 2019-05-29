@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        
+        <meta charset="utf-8" /> 
+    
+        <title>MoreTags &lt;result&gt;</title>
+        
+        <link rel="stylesheet" href="../css/moretags.css">
+    
+    </head>
+    
+    <body style="padding: 10px; font-family: sans-serif;">
+    
+        <result code="Math.random()">Random #:</result>
+        
+        <div style="padding: 10px 0;">
+          Using MoreTags Version <span id="version">(Unknown)</span>
+        </div>
+        
+        <script src="../js/moretags.js"></script>
+        
+        <script>
+            document.getElementById("version").innerText = `${MoreTags.version.major}.${MoreTags.version.minor}.${MoreTags.version.revision}`;
+        </script>
+    
+    </body>
+
+</html>
