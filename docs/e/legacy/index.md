@@ -3,7 +3,7 @@
 
 <br>
 
-[**View Current Examples**](..)
+[**View Latest Examples**](..)
 
 <br>
 

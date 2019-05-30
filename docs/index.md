@@ -4,12 +4,12 @@ Welcome to the website for [moretags](https://github.com/sykeben/moretags), a CS
 
 **Documentation:**  
 \- [Latest](v/latest.html)  
-\- [Older Versions](v)
+\- [Version List](v)
 
 <br>
 
 **Examples:**  
-\- [Most Recent](e)  
+\- [Latest](e)  
 \- [Legacy](e/legacy)
 
 <br>
