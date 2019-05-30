@@ -11,7 +11,7 @@ const MoreTags = {
     
     // Version #.
     version: {
-        major: 0, minor: 0, revision: 3
+        major: 0, minor: 0, revision: 4
     },
     
     // Copyright.
