@@ -1,7 +1,7 @@
 **Examples by Tag:**  
 \- [\<mono\>](mono.html)  
 \- [\<log\> & MTLog()](log.html)  
-\- [\<result\>](result.html)
+\- [\<result\>](result.html)  
 \- [\<un\>, \<on\>, & \<tn\>](unontn.html)
 
 <br>
