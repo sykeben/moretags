@@ -9,4 +9,11 @@ Welcome to the website for [moretags](https://github.com/sykeben/moretags), a CS
 
 <br>
 
+**Example Collections:**  
+\- [Most Recent](e)  
+\- [Legacy](e/legacy)
+
+<br>
+
+--------------------------------------------------
 **[Author's Homepage](https://sykeben.github.io)**
