@@ -14,5 +14,10 @@ Welcome to the website for [moretags](https://github.com/sykeben/moretags), a CS
 
 <br>
 
+**How-To's:**  
+\- [Installation](how2/install)
+
+<br>
+
 --------------------------------------------------
 [**Author's Homepage**](https://sykeben.github.io)
