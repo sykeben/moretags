@@ -51,16 +51,10 @@ rdisp pre {
 
 
 /* <un> Underline */
-un {
-    text-decoration: underline;
-}
+un { text-decoration: underline; }
 
 /* <on> Overline */
-on {
-    text-decoration: overline;
-}
+on { text-decoration: overline; }
 
 /* <tn> Through-Line */
-tn {
-    text-decoration: line-through;
-}
+tn { text-decoration: line-through; }
