@@ -16,4 +16,4 @@ Welcome to the website for [moretags](https://github.com/sykeben/moretags), a CS
 <br>
 
 --------------------------------------------------
-**[Author's Homepage](https://sykeben.github.io)**
+[**Author's Homepage**](https://sykeben.github.io)

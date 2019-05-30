@@ -5,7 +5,7 @@
 
 <br>
 
-**[View Legacy Examples](legacy)**
+[**View Legacy Examples**](legacy)
 
 <br>
 
