@@ -1,9 +1,4 @@
-# `<+>` MoreTags
-*A CSS & JS framework to extend your browser.*
-
-<br>
-
-### [Browse Latest Docs Version](v/0.0.3)
+# [Browse Latest Docs](v/0.0.3)
 
 <br>
 
