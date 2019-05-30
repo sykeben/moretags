@@ -43,7 +43,7 @@ Som<on>e</on> of th<on>e</on>se <on>a</on>re acc<on>e</on>nted.
 
 <br>
 
-### **\<mtime\>, MTUpdateTime(), & MTUpdateTimeLoop (And date versions)
+### **\<mtime\>**, **MTUpdateTime()**, & **MTUpdateTimeLoop** (And **date** versions)
 Displays the current time (mtime) or date (mdate), updates upon page load. Can be updated automatically through `MTUpdateTimeLoop`/`MTUpdateDateLoop`. [Example](../e/mtimedate.html)
 ```html
 Current Time: <mtime></mtime>
