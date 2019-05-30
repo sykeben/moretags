@@ -3,7 +3,7 @@
 \- [\<log\> & MTLog()](log.html)  
 \- [\<result\>](result.html)  
 \- [\<un\>, \<on\>, & \<tn\>](unontn.html)  
-\- [\<mtime\>, \<mdate\>, & Respective Functions](mtimedate.html)
+\- [\<mtime\>, \<mdate\>, & Their Functions](mtimedate.html)
 
 <br>
 
