@@ -3,7 +3,7 @@ If you want to download MoreTags for offline use or as a vendor library, downloa
 
 <br>
 
-**Using a CDN:**
+**Using a CDN:**  
 If you want to use a CDN instead of downloading, use the following links:  
 `https://cdn.jsdelivr.net/gh/sykeben/moretags@latest/css/moretags.min.css`  
 `https://cdn.jsdelivr.net/gh/sykeben/moretags@latest/js/moretags.min.js`
