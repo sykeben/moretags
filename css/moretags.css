@@ -1,5 +1,5 @@
 /*******************/
-/* MoreTags 0.0.4  */
+/* MoreTags 0.0.5  */
 /* CSS Framework   */
 /* (c)2019 SykeBen */
 /*******************/
@@ -58,3 +58,8 @@ on { text-decoration: overline; }
 
 /* <tn> Through-Line */
 tn { text-decoration: line-through; }
+
+
+
+/* <time> Display */
+time { display: inline; }

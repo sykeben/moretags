@@ -1,5 +1,5 @@
 /////////////////////
-// MoreTags 0.0.4  //
+// MoreTags 0.0.5  //
 // JS Framework    //
 // (c)2019 SykeBen //
 /////////////////////
@@ -11,7 +11,7 @@ const MoreTags = {
     
     // Version #.
     version: {
-        major: 0, minor: 0, revision: 4
+        major: 0, minor: 0, revision: 5
     },
     
     // Copyright.
@@ -95,10 +95,51 @@ function MTResults() {
 
 
 
+// <time> Updater (Single).
+function MTUpdateTime() {
+    
+    // Load all <time> tags.
+    var tags = document.getElementsByTagName('time');
+    
+    // Update each one.
+    for (var i=0l i<tags.length; i++) {
+        tags[i].innerText = new Time().toLocaleString();   
+    }
+    
+}
+
+// <time> Updater (Loop).
+MTUpdateTimeLoop = {
+    
+    // Current status.
+    active: false,
+    
+    // Delay (default: 1000ms).
+    delay: 1000,
+    
+    // Loop starter.
+    start: function() {
+        if (!this.active) this.active = true;
+        MTUpdateTime();
+        if (this.active) setTimeout(MTUpdateTimeLoop.start(), this.delay);
+    },
+    
+    // Loop stopper.
+    stop: function() {
+        if (this.active) this.active = false;
+    }
+    
+}
+
+
+
 // Final setup (run onload functions).
 window.onload = function() {
     
     // Evaluate <result>'s
     MTResults();
+    
+    // Update <time>'s once.
+    MTUpdateTime();
     
 };
