@@ -1,4 +1,4 @@
-Welcome to the website for [moretags], a CSS & JS framework to extend your webpage. This website only holds documentation and examples and may be lacking some elements.
+Welcome to the website for [moretags](https://github.com/sykeben/moretags), a CSS & JS framework to extend your webpage. This website only holds documentation and examples and may be lacking some elements.
 
 <br>
 
