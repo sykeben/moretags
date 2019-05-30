@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    
+        <title>Redirect</title>
+        
+        <style>
+            body { font-family: sans-serif; padding: 0px; margin: 0px; }
+            h1, p { font-weight: 100; margin: 10px; }
+        </style>
+    
+    </head>
+    
+    <body>
+    
+        <h1>Now redirecting...</h1>
+        <p>You will be redirected to download the latest documentation for MoreTags in 3 seconds.</p>
+        <p>Click <a href="#" id="link">here</a> if you are not automatically redirected.</p>
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        
+        <script>
+            $.getJSON('https://api.github.com/repos/sykeben/moretags/releases/latest', function(data) {
+                $('#link').attr('href', data.tag_name)
+            })
+            
+            function gotoDocs() {
+                $('#link').click()
+            }
+
+            setTimeout(gotoDocs, 3000)
+        </script>
+    
+    </body>
+
+</html>
