@@ -1,6 +1,6 @@
 # `<+>` More Tags
 *A CSS & JS Framework*  
-<sup>~ [Website](https://sykeben.github.io/moretags) ~ [Latest Docs](https://sykeben.github.io/v/latest.html) ~</sup>
+<sup>~ [Website](https://sykeben.github.io/moretags) ~ [Latest Docs](https://sykeben.github.io/moretags/v/latest.html) ~</sup>
 
 <br>
 
