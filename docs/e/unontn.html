@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        
+        <meta charset="utf-8" /> 
+    
+        <title>MoreTags &lt;un&gt;, &lt;on&gt;, &amp; &lt;tn&gt;</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sykeben/moretags@latest/css/moretags.min.css">
+        <link rel="stylesheet" href="res/style.css">
+    
+    </head>
+    
+    <body>
+        
+        <h1 class="t">&lt;un&gt;, &lt;on&gt;, &amp; &lt;tn&gt; Example</h1>
+    
+        <div style="padding: 10px; color: black;">
+            <un>This is important!</un><br>
+            Som<on>e</on> of th<on>e</on>se <on>a</on>re acc<on>e</on>nted.<br>
+            <tn>This is crossed off.</tn>
+        </div>
+        
+        <div class="t" style="padding: 10px;">
+            Using MoreTags Version <span id="version">(Unknown)</span>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/gh/sykeben/moretags@latest/js/moretags.min.js"></script>
+        
+        <script>
+            document.getElementById("version").innerText = `${MoreTags.version.major}.${MoreTags.version.minor}.${MoreTags.version.revision}`;
+            
+            var testLog = new MTLog("test");
+            
+            testLog.print("Hello, World!");
+            testLog.print("This is a test.");
+            testLog.print(Math.random().toString());
+        </script>
+    
+    </body>
+
+</html>

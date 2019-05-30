@@ -1,5 +1,5 @@
 /*******************/
-/* MoreTags 0.0.3  */
+/* MoreTags 0.0.4  */
 /* CSS Framework   */
 /* (c)2019 SykeBen */
 /*******************/
@@ -46,4 +46,21 @@ result rdisp {
 /* <result> Output */
 rdisp pre {
     margin: 0px; padding: 0px;
+}
+
+
+
+/* <un> Underline */
+un {
+    text-decoration: underline;
+}
+
+/* <on> Overline */
+on {
+    text-decoration: overline;
+}
+
+/* <tn> Through-Line */
+tn {
+    text-decoration: line-through;
 }
