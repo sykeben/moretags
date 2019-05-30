@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        
+        <meta charset="utf-8" /> 
+    
+        <title>MoreTags &lt;result&gt;</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sykeben/moretags@latest/css/moretags.min.css">
+        <link rel="stylesheet" href="res/style.css">
+    
+    </head>
+    
+    <body>
+        
+        <h1>&lt;result&gt; Example</h1>
+    
+        <result code="Math.random()"><strong>Random #:</strong></result>
+        
+        <div style="padding: 20px 0;">
+            Using MoreTags Version <span id="version">(Unknown)</span>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/gh/sykeben/moretags@latest/js/moretags.min.js"></script>
+        
+        <script>
+            document.getElementById("version").innerText = `${MoreTags.version.major}.${MoreTags.version.minor}.${MoreTags.version.revision}`;
+        </script>
+    
+    </body>
+
+</html>

@@ -8,19 +8,22 @@
     
         <title>MoreTags &lt;log&gt;</title>
         
-        <link rel="stylesheet" href="../css/moretags.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sykeben/moretags@latest/css/moretags.min.css">
+        <link rel="stylesheet" href="res/style.css">
     
     </head>
     
-    <body style="padding: 10px;">
+    <body>
+        
+        <h1>&lt;log&gt; Example</h1>
     
         <log id="test"></log>
         
-        <div style="padding: 10px; font-family: sans-serif;">
-          Using MoreTags Version <span id="version">(Unknown)</span>
+        <div style="padding: 10px;">
+            Using MoreTags Version <span id="version">(Unknown)</span>
         </div>
         
-        <script src="../js/moretags.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/sykeben/moretags@latest/js/moretags.min.js"></script>
         
         <script>
             document.getElementById("version").innerText = `${MoreTags.version.major}.${MoreTags.version.minor}.${MoreTags.version.revision}`;

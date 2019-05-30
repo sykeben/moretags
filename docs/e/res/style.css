@@ -1,0 +1,21 @@
+body {
+    padding: 10px;
+    font-family: sans-serif;
+    background-image: url(highlight-bg.jpg);
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #D5000D;
+    margin: 10px 5px 20px 5px;
+}
+
+a {
+    color: #D5000D;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #D5000D;
+    text-decoration: none;
+}

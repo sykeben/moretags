@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        
+        <meta charset="utf-8" /> 
+    
+        <title>MoreTags &lt;log&gt; (Legacy)</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sykeben/moretags@0.0.1/css/moretags.min.css">
+        <link rel="stylesheet" href="../res/style.css">
+    
+    </head>
+    
+    <body>
+        
+        <h1>Legacy &lt;log&gt; Example</h1>
+        
+        <log id="test"></log>
+        
+        <div style="padding: 10px;">
+            Using MoreTags Version 0.0.1 (Now Legacy)
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/gh/sykeben/moretags@0.0.1/js/moretags.min.js"></script>
+        
+        <script>
+            var testLog = new Log("test");
+            
+            testLog.print("Hello, World!");
+            testLog.print("This is a test.");
+            testLog.print(Math.random().toString());
+        </script>
+    
+    </body>
+
+</html>
