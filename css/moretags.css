@@ -61,5 +61,5 @@ tn { text-decoration: line-through; }
 
 
 
-/* <time> Display */
-time { display: inline; }
+/* <mtime> & <mdate> Display */
+mtime, mdate { display: inline; }

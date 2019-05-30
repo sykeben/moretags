@@ -43,12 +43,14 @@ Som<on>e</on> of th<on>e</on>se <on>a</on>re acc<on>e</on>nted.
 
 <br>
 
-### **\<time\>, MTUpdateTime(), & MTUpdateTimeLoop
-Displays the current time, updates upon page load. Can be updated automatically through `MTUpdateTimeLoop`. [Example](https://sykeben.github.io/moretags/e/time.html)
+### **\<mtime\>, MTUpdateTime(), & MTUpdateTimeLoop (And date versions)
+Displays the current time (mtime) or date (mdate), updates upon page load. Can be updated automatically through `MTUpdateTimeLoop`/`MTUpdateDateLoop`. [Example](../e/mtimedate.html)
 ```html
-Current Time: <time></time>
+Current Time: <mtime></mtime>
+Current Date: <mdate></mdate>
 
 <script>
     MTUpdateTimeLoop.start();
+    MTUpdateDateLoop.start();
 </script>
 ```

@@ -95,20 +95,20 @@ function MTResults() {
 
 
 
-// <time> Updater (Single).
+// <mtime> Updater (Single).
 function MTUpdateTime() {
     
     // Load all <time> tags.
-    var tags = document.getElementsByTagName('time');
+    var tags = document.getElementsByTagName('mtime');
     
     // Update each one.
-    for (var i=0l i<tags.length; i++) {
-        tags[i].innerText = new Time().toLocaleString();   
+    for (var i=0; i<tags.length; i++) {
+        tags[i].innerText = new Date().toLocaleTimeString();   
     }
     
 }
 
-// <time> Updater (Loop).
+// <mtime> Updater (Loop).
 MTUpdateTimeLoop = {
     
     // Current status.
@@ -119,14 +119,60 @@ MTUpdateTimeLoop = {
     
     // Loop starter.
     start: function() {
-        if (!this.active) this.active = true;
-        MTUpdateTime();
-        if (this.active) setTimeout(MTUpdateTimeLoop.start(), this.delay);
+        if (!this.active) {
+            this.active = true;
+            setInterval(MTUpdateTime, this.delay);
+        }
     },
     
     // Loop stopper.
     stop: function() {
-        if (this.active) this.active = false;
+        if (this.active) {
+            this.active = false;
+            clearInterval(MTUpdateTime)
+        }
+    }
+    
+}
+
+
+
+// <mdate> Updater (Single).
+function MTUpdateDate() {
+    
+    // Load all <time> tags.
+    var tags = document.getElementsByTagName('mdate');
+    
+    // Update each one.
+    for (var i=0; i<tags.length; i++) {
+        tags[i].innerText = new Date().toLocaleDateString();   
+    }
+    
+}
+
+// <mdate> Updater (Loop).
+MTUpdateDateLoop = {
+    
+    // Current status.
+    active: false,
+    
+    // Delay (default: 25000ms).
+    delay: 25000,
+    
+    // Loop starter.
+    start: function() {
+        if (!this.active) {
+            this.active = true;
+            setInterval(MTUpdateDate, this.delay);
+        }
+    },
+    
+    // Loop stopper.
+    stop: function() {
+        if (this.active) {
+            this.active = false;
+            clearInterval(MTUpdateDate)
+        }
     }
     
 }
@@ -139,7 +185,10 @@ window.onload = function() {
     // Evaluate <result>'s
     MTResults();
     
-    // Update <time>'s once.
+    // Update <mtime>'s once.
     MTUpdateTime();
+    
+    // Update <mdate>'s once.
+    MTUpdateDate();
     
 };
