@@ -1,8 +1,14 @@
 body {
     padding: 10px;
-    font-family: sans-serif;
-    background-image: url(highlight-bg.jpg);
     background-size: cover;
+	font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+	line-height: 1.5;
+	color: #6d6d6d;
+	background: #e7e7e7 url(highlight-bg.png) 0 0 repeat;
+}
+
+.t {
+    text-shadow: 0 1px 0 rgba(255,255,255,0.8);
 }
 
 h1, h2, h3, h4, h5, h6 {
